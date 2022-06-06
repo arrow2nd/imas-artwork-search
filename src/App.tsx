@@ -1,9 +1,12 @@
 import type { Component } from 'solid-js'
+import Header from 'components/header'
+import UI from 'components/ui'
 
 const App: Component = () => {
   return (
-    <div>
-      <h1>hello!</h1>
+    <div class="container">
+      <Header />
+      <UI />
     </div>
   )
 }
