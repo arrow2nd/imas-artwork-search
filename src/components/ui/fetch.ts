@@ -6,9 +6,7 @@ export const fetchArtworks = async ({
 }: Request): Promise<any[]> => {
   // 品番で検索
   if (type === 'id') {
-    return [
-      (await fetch(`https://imas-artwork-api.deno.dev/v1/cd/${keyword}`)).json()
-    ]
+    return await feachFromCdId(keyword)
   }
 
   // アルバム名で検索
@@ -19,5 +17,23 @@ export const fetchArtworks = async ({
   url.searchParams.append('orderby', 'asc')
   url.searchParams.append('limit', '25')
 
-  return (await fetch(url)).json()
+  const data = await fetch(url.href)
+  const json = await data.json()
+
+  if (!data.ok) {
+    throw new Error(json.message || data.statusText)
+  }
+
+  return json
+}
+
+const feachFromCdId = async (keyword: string): Promise<any[]> => {
+  const data = await fetch(`https://imas-artwork-api.deno.dev/v1/cd/${keyword}`)
+  const json = await data.json()
+
+  if (!data.ok) {
+    throw new Error(json.message || data.statusText)
+  }
+
+  return [json]
 }

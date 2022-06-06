@@ -20,8 +20,6 @@ const UI: Component = () => {
     })
   }
 
-  console.log('re-render')
-
   return (
     <>
       <div>
