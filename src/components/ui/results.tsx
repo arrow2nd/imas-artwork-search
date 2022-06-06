@@ -1,5 +1,6 @@
-import Link from 'components/common/link'
 import { Component, For, Match, Resource, Switch } from 'solid-js'
+
+import Link from 'components/common/link'
 
 type Props = {
   items: Resource<any[] | undefined>

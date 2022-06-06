@@ -1,4 +1,5 @@
 import type { Component } from 'solid-js'
+
 import Header from 'components/header'
 import UI from 'components/ui'
 

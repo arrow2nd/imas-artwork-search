@@ -1,7 +1,9 @@
 import { Component, createResource, createSignal } from 'solid-js'
-import Results from './results'
+
 import { Request } from 'types/request'
+
 import { fetchArtworks } from './fetch'
+import Results from './results'
 
 const UI: Component = () => {
   const [type, setType] = createSignal<string>('id')
