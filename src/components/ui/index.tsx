@@ -5,7 +5,11 @@ import { Request } from 'types/request'
 import { fetchArtworks } from './fetch'
 import Results from './results'
 
-const UI: Component = () => {
+type Props = {
+  class: string
+}
+
+const UI: Component<Props> = (props) => {
   const [error, setError] = createSignal<string>('')
   const [request, setRequest] = createSignal<Request>()
   const [results] = createResource(request, fetchArtworks)
@@ -14,29 +18,31 @@ const UI: Component = () => {
     e.preventDefault()
 
     const fields = new FormData(e.target)
-    const typeA = fields.get('type')
-    const keywordA = fields.get('keyword')
+    const type = fields.get('type')
+    const keyword = fields.get('keyword')
 
-    if (!typeA || !keywordA) {
+    if (!type || !keyword) {
       setError('⚠️ 入力されていないフィールドがあります')
       return
     }
 
     setError('')
     setRequest({
-      type: typeA.toString(),
-      keyword: keywordA.toString()
+      type: type.toString(),
+      keyword: keyword.toString()
     })
   }
 
   return (
-    <>
+    <div class={props.class}>
       <div>
         <form onSubmit={handleSubmit}>
+          <label>検索タイプ</label>
           <select name="type">
             <option value="id">品番から</option>
             <option value="keyword">アルバム名から</option>
           </select>
+          <label>キーワード</label>
           <input
             name="keyword"
             placeholder="LACA-15905, FR@GMENT WING 02 etc..."
@@ -46,7 +52,7 @@ const UI: Component = () => {
       </div>
       {error() && <blockquote>{error()}</blockquote>}
       <Results items={results} />
-    </>
+    </div>
   )
 }
 
