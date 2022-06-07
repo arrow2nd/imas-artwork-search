@@ -15,7 +15,9 @@ const UI: Component = () => {
   const placeholder = () =>
     `例: ${type() === 'id' ? 'LACA-15905' : 'FR@GMENT WING 02'}`
 
-  const handleClick = () => {
+  const handleSubmit = (e: SubmitEvent) => {
+    e.preventDefault()
+
     setRequest({
       type: type(),
       keyword: keyword()
@@ -25,15 +27,17 @@ const UI: Component = () => {
   return (
     <>
       <div>
-        <select onChange={(e) => setType(e.currentTarget.value)}>
-          <option value="id">品番から</option>
-          <option value="keyword">アルバム名から</option>
-        </select>
-        <input
-          placeholder={placeholder()}
-          onChange={(e) => setKeyword(e.currentTarget.value)}
-        />
-        <button onClick={handleClick}>検索</button>
+        <form onSubmit={handleSubmit}>
+          <select onChange={(e) => setType(e.currentTarget.value)}>
+            <option value="id">品番から</option>
+            <option value="keyword">アルバム名から</option>
+          </select>
+          <input
+            placeholder={placeholder()}
+            onChange={(e) => setKeyword(e.currentTarget.value)}
+          />
+          <button type="submit">検索</button>
+        </form>
       </div>
       <Results items={results} />
     </>
