@@ -1,9 +1,10 @@
+import { ImasArtworkAPIError, ImasArtworkAPIResult } from 'types/api'
 import { Request } from 'types/request'
 
 export const fetchArtworks = async ({
   type,
   keyword
-}: Request): Promise<any[]> => {
+}: Request): Promise<ImasArtworkAPIResult[]> => {
   // 品番で検索
   if (type === 'id') {
     return await feachFromCdId(keyword)
@@ -27,10 +28,11 @@ export const fetchArtworks = async ({
   return json
 }
 
-const feachFromCdId = async (keyword: string): Promise<any[]> => {
-  const data = await fetchFromApi(
-    `https://imas-artwork-api.deno.dev/v1/cd/${keyword}`
-  )
+const feachFromCdId = async (
+  keyword: string
+): Promise<ImasArtworkAPIResult[]> => {
+  const url = `https://imas-artwork-api.deno.dev/v1/cd/${keyword}`
+  const data = await fetchFromApi(url)
   const json = await data.json()
 
   if (!data.ok) {
@@ -56,7 +58,7 @@ const fetchFromApi = async (url: string): Promise<Response> => {
   }
 }
 
-const createNewError = (json: any, data: Response): Error => {
+const createNewError = (json: ImasArtworkAPIError, data: Response): Error => {
   const message = json.message || data.statusText
   return new Error(`${message} ( ${data.status} )`)
 }
