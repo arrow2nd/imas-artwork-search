@@ -1,34 +1,17 @@
-## Usage
+# imas-artwork-search
 
-Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
+アイマス CD のアートワークを検索できる Web アプリ （API デモ）
 
-This is the reason you see a `pnpm-lock.yaml`. That being said, any package manager will work. This file can be safely be removed once you clone a template.
+[![Depfu](https://badges.depfu.com/badges/11e8ad9c38d456ba52114a2bcf49f520/overview.svg)](https://depfu.com/github/arrow2nd/imas-artwork-search?project_id=35587)
+[![Cloudflare Pages](https://shields.io/badge/Cloudflare%20Pages-deployed-F38020?logo=Cloudflare&style=flat)](https://imas-artwork-search.pages.dev)
 
-```bash
-$ npm install # or pnpm install or yarn install
-```
+![demo](https://user-images.githubusercontent.com/44780846/172312091-1f51cf9c-9a6b-4992-bca7-85e30794e547.png)
 
-### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
+## できること
 
-## Available Scripts
+- 品番からの検索
+- アルバム名からの検索
 
-In the project directory, you can run:
+## API
 
-### `npm dev` or `npm start`
-
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-
-### `npm run build`
-
-Builds the app for production to the `dist` folder.<br>
-It correctly bundles Solid in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-## Deployment
-
-You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
+> https://github.com/arrow2nd/imas-artwork-api
