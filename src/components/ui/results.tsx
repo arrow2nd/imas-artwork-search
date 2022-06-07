@@ -1,14 +1,20 @@
+import { Component, For, Match, Resource, Switch } from 'solid-js'
+
 import Link from 'components/common/link'
-import { Component, For, Resource, Show } from 'solid-js'
+
+import { ImasArtworkAPIResult } from 'types/api'
 
 type Props = {
-  items: Resource<any[] | undefined>
+  items: Resource<ImasArtworkAPIResult[] | undefined>
 }
 
-const Results: Component<Props> = ({ items }) => {
-  return (
-    <div>
-      <Show when={!items.loading} fallback={() => <p>Loading...</p>}>
+const Results: Component<Props> = ({ items }) => (
+  <div>
+    <Switch fallback={() => <p>Loading...</p>}>
+      <Match when={items.error}>
+        <p>{items.error.toString()}</p>
+      </Match>
+      <Match when={!items.loading}>
         <table>
           <thead>
             <tr>
@@ -35,9 +41,9 @@ const Results: Component<Props> = ({ items }) => {
             </For>
           </tbody>
         </table>
-      </Show>
-    </div>
-  )
-}
+      </Match>
+    </Switch>
+  </div>
+)
 
 export default Results
