@@ -800,9 +800,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.4.118":
-  version: 1.4.146
-  resolution: "electron-to-chromium@npm:1.4.146"
-  checksum: 5700a27f44463d2701cbc1593973a711ba7b23374db840ec00c612d1e0272ba95b4f170f561953380441739665a400670c6678bcff26a0ae28d2e49ab03d478d
+  version: 1.4.147
+  resolution: "electron-to-chromium@npm:1.4.147"
+  checksum: a714da8ac6842887e98886026b8eeaee0d2fd6d57f5707b0fc2a2916c1b9d026ca8deeef529fd3b069e96f719495a7467b01a508b881fd90d95aa204a7a92000
   languageName: node
   linkType: hard
 
@@ -2027,8 +2027,8 @@ __metadata:
   linkType: soft
 
 "vite@npm:^2.8.0, vite@npm:^2.9.9":
-  version: 2.9.9
-  resolution: "vite@npm:2.9.9"
+  version: 2.9.10
+  resolution: "vite@npm:2.9.10"
   dependencies:
     esbuild: ^0.14.27
     fsevents: ~2.3.2
@@ -2051,7 +2051,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: 9292b8ba510a393d0c61c407ebfb4eaa818b2d8d106b3476cdc94cb57a0c59348a535936d698db04b35910a1cfdb16aeaf872f0f995b54cf6d7ed31bc7886deb
+  checksum: 37a4eafdb0990e496a27903b0722f1a5d13c622338a885f66d9b4da955ac40cb567e7e8bc97aac50c3f2a385f10a2e03bc9d5c14bf8a8bd0a1fbf6321c0d3562
   languageName: node
   linkType: hard
 
