@@ -14,9 +14,8 @@ export const fetchArtworks = async ({
   const url = new URL('https://imas-artwork-api.deno.dev/v1/list')
 
   url.searchParams.append('keyword', keyword)
-  url.searchParams.append('order', 'id')
-  url.searchParams.append('orderby', 'asc')
-  url.searchParams.append('limit', '25')
+  url.searchParams.append('order', 'asc')
+  url.searchParams.append('orderby', 'id')
 
   const data = await fetchFromApi(url.href)
   const json = await data.json()
