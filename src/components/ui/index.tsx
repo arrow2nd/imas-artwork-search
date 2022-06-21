@@ -39,7 +39,7 @@ const UI: Component<Props> = (props) => {
         <form onSubmit={handleSubmit}>
           <label>検索タイプ</label>
           <select name="type">
-            <option value="id">品番から</option>
+            <option value="id">品番から（完全一致）</option>
             <option value="keyword">アルバム名から</option>
           </select>
           <label>キーワード</label>

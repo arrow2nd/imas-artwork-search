@@ -4,6 +4,7 @@ import Link from 'components/common/link'
 
 const Footer: Component = () => (
   <footer>
+    <div>※データは毎月1日に更新されます</div>
     <div>
       <span>{'Developed by arrow2nd / '}</span>
       <Link
