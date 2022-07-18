@@ -59,5 +59,5 @@ const fetchFromApi = async (url: string): Promise<Response> => {
 
 const createNewError = (json: ImasArtworkAPIError, data: Response): Error => {
   const message = json.message || data.statusText
-  return new Error(`${message} ( ${data.status} )`)
+  return new Error(`"${message}" ( ${data.status} )`)
 }
