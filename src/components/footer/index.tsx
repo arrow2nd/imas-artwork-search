@@ -15,7 +15,7 @@ const Footer: Component = () => (
       <Link title="API" href="https://github.com/arrow2nd/imas-artwork-api" />
     </div>
     <div>
-      The rights to all content related to THE IDOLM@STER belong to BANDAI NAMCO
+      The rights to all content related to THE IDOLM@STER belong to Bandai Namco
       Entertainment Inc.
     </div>
   </footer>
