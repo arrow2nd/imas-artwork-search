@@ -1009,6 +1009,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"csstype@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "csstype@npm:3.1.0"
+  checksum: 644e986cefab86525f0b674a06889cfdbb1f117e5b7d1ce0fc55b0423ecc58807a1ea42ecc75c4f18999d14fc42d1d255f84662a45003a52bb5840e977eb2ffd
+  languageName: node
+  linkType: hard
+
 "debug@npm:4, debug@npm:^4.1.0, debug@npm:^4.3.3":
   version: 4.3.4
   resolution: "debug@npm:4.3.4"
@@ -2071,10 +2078,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"solid-js@npm:^1.4.8":
-  version: 1.4.8
-  resolution: "solid-js@npm:1.4.8"
-  checksum: deb79463dab3af7889fffaa15f1be92be0c0732d46e74bd2848208d974389e967d69462eb940fbfc0cdbdf7d0a3677a7c9517da5fe6e2a25534e077b555d5704
+"solid-js@npm:^1.5.4":
+  version: 1.5.4
+  resolution: "solid-js@npm:1.5.4"
+  dependencies:
+    csstype: ^3.1.0
+  checksum: 0f0a188ad57df42857c3ed5e19d41d24da31f126f09ec9cda9527a99cf65c5753f18f098f6070547a4c01163e657a4c76431f1ac17fc8c98b4675ab83dd99c30
   languageName: node
   linkType: hard
 
@@ -2256,7 +2265,7 @@ __metadata:
     "@types/node": ^17.0.45
     milligram: ^1.4.1
     prettier: ^2.7.1
-    solid-js: ^1.4.8
+    solid-js: ^1.5.4
     typescript: ^4.8.2
     vite: ^2.9.15
     vite-plugin-solid: ^2.3.0

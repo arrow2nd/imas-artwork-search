@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "milligram": "^1.4.1",
-    "solid-js": "^1.4.8"
+    "solid-js": "^1.5.4"
   },
   "packageManager": "yarn@3.2.1"
 }
