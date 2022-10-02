@@ -2241,9 +2241,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite-plugin-solid@npm:^2.3.0":
-  version: 2.3.0
-  resolution: "vite-plugin-solid@npm:2.3.0"
+"vite-plugin-solid@npm:^2.3.9":
+  version: 2.3.9
+  resolution: "vite-plugin-solid@npm:2.3.9"
   dependencies:
     "@babel/core": ^7.18.6
     "@babel/preset-typescript": ^7.18.6
@@ -2253,7 +2253,7 @@ __metadata:
   peerDependencies:
     solid-js: ^1.3.17
     vite: ^3.0.0
-  checksum: c66f4fde74a5c921adcda4a090102840b22462997f0cdd4f020d86658dfe9071e5f6bdc30de016985955ef8abe9aff700822aa79f25dd159924b8a4eee6f1686
+  checksum: fd23a8e9ee4371c1000f9736a27c68d0bde8e4238d793b779f77aa2ba29e15c9d418c5f45c3d00a43f73419fb94b88b0c5dfc6d970ce9cfc885b388c6bc0cfca
   languageName: node
   linkType: hard
 
@@ -2268,7 +2268,7 @@ __metadata:
     solid-js: ^1.5.4
     typescript: ^4.8.3
     vite: ^2.9.15
-    vite-plugin-solid: ^2.3.0
+    vite-plugin-solid: ^2.3.9
   languageName: unknown
   linkType: soft
 
