@@ -2176,12 +2176,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"solid-js@npm:^1.6.0":
-  version: 1.6.0
-  resolution: "solid-js@npm:1.6.0"
+"solid-js@npm:^1.6.2":
+  version: 1.6.2
+  resolution: "solid-js@npm:1.6.2"
   dependencies:
     csstype: ^3.1.0
-  checksum: a1d655242b1bae82ebdd457deaa99e3874351ecf2447ccf1d3b09c5d862c9eb1b123e244dbe73e107a4ff08452e5857970189f8d2c401debda868b383027a069
+  checksum: 4062ce398440b78e6d01d233403cca442d4b5fc4dfd70e7cbdd911c9faea0ed3cf42ce2979c88797c5a7b371710ab33e78c8a67dd6610f741a25d108ab2f64e0
   languageName: node
   linkType: hard
 
@@ -2353,19 +2353,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite-plugin-solid@npm:^2.3.10":
-  version: 2.3.10
-  resolution: "vite-plugin-solid@npm:2.3.10"
+"vite-plugin-solid@npm:^2.4.0":
+  version: 2.4.0
+  resolution: "vite-plugin-solid@npm:2.4.0"
   dependencies:
     "@babel/core": ^7.18.6
     "@babel/preset-typescript": ^7.18.6
     babel-preset-solid: ^1.4.6
     merge-anything: ^5.0.2
     solid-refresh: ^0.4.1
+    vitefu: ^0.1.1
   peerDependencies:
     solid-js: ^1.3.17
     vite: ^3.0.0
-  checksum: 1436c69a7f68d5f2cbb7b70d4cedde6807453757020b9dfb4dc2d487257b1423cac3b4c7f781891fe1f626f34eff6e98f04ce2bcdf3ea5a794b58dad9c3a8db7
+  checksum: 6cb8cbb71e9645f661461a3c82a401d3d14c6290b9061ad882113937f861fa094c9d8726a6360443fa3164167182cdb7d17f626d8cac647f8a5f32326f86f419
   languageName: node
   linkType: hard
 
@@ -2377,10 +2378,10 @@ __metadata:
     "@types/node": ^17.0.45
     milligram: ^1.4.1
     prettier: ^2.7.1
-    solid-js: ^1.6.0
+    solid-js: ^1.6.2
     typescript: ^4.8.4
     vite: ^2.9.15
-    vite-plugin-solid: ^2.3.10
+    vite-plugin-solid: ^2.4.0
   languageName: unknown
   linkType: soft
 
@@ -2410,6 +2411,18 @@ __metadata:
   bin:
     vite: bin/vite.js
   checksum: 5edf8afc132a598f82a1339aa503514a0e86f6264babe94531b9000d801f157c9a32ae022542404678acca43ee260ade04c4763c4b7b8d381a6b50511b4a1447
+  languageName: node
+  linkType: hard
+
+"vitefu@npm:^0.1.1":
+  version: 0.1.1
+  resolution: "vitefu@npm:0.1.1"
+  peerDependencies:
+    vite: ^3.0.0
+  peerDependenciesMeta:
+    vite:
+      optional: true
+  checksum: f6be61a04437b2cc3bd42f39a4bae1c6246f7b0f99cfad649deb9059975147e3450ca8ba8a253a3fcb4c73aeeda4cb1b6bc1604d31869323d5e1adeeb38a1ca3
   languageName: node
   linkType: hard
 
