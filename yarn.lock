@@ -2310,12 +2310,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"solid-js@npm:^1.6.5":
-  version: 1.6.5
-  resolution: "solid-js@npm:1.6.5"
+"solid-js@npm:^1.6.8":
+  version: 1.6.8
+  resolution: "solid-js@npm:1.6.8"
   dependencies:
     csstype: ^3.1.0
-  checksum: c05b44ec19ac87d58130c86f2271b01dc453ec873fdd657d8796c3a39d6a07dfd4d0d76b8fd428d74326f4a866cb373d8431b10b849d6a00274d33ae58736af8
+  checksum: 986aca5426f62a4b7af76fbaeb5c843bbaf0e0c46877d027ca4e9d93c9ae6ca8617ab2bf16a94c6154c81de53eee6434db5077ea63d64dadb6f82197acdbd694
   languageName: node
   linkType: hard
 
@@ -2519,7 +2519,7 @@ __metadata:
     "@types/node": ^17.0.45
     milligram: ^1.4.1
     prettier: ^2.8.1
-    solid-js: ^1.6.5
+    solid-js: ^1.6.8
     typescript: ^4.9.4
     vite: ^2.9.15
     vite-plugin-solid: ^2.5.0
