@@ -2310,12 +2310,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"solid-js@npm:^1.6.8":
-  version: 1.6.8
-  resolution: "solid-js@npm:1.6.8"
+"solid-js@npm:^1.6.10":
+  version: 1.6.10
+  resolution: "solid-js@npm:1.6.10"
   dependencies:
     csstype: ^3.1.0
-  checksum: 986aca5426f62a4b7af76fbaeb5c843bbaf0e0c46877d027ca4e9d93c9ae6ca8617ab2bf16a94c6154c81de53eee6434db5077ea63d64dadb6f82197acdbd694
+  checksum: dd4c706d4f1809ea1a5dcea178fa314b01867eecf34ed4b92a5ef73f2b1d09f4a6754c2313d7288c30e8fc9cf2c37d85d8869b7e57ddc6b2d8dea96ceb550298
   languageName: node
   linkType: hard
 
@@ -2435,23 +2435,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^4.9.4":
-  version: 4.9.4
-  resolution: "typescript@npm:4.9.4"
+"typescript@npm:^4.9.5":
+  version: 4.9.5
+  resolution: "typescript@npm:4.9.5"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: e782fb9e0031cb258a80000f6c13530288c6d63f1177ed43f770533fdc15740d271554cdae86701c1dd2c83b082cea808b07e97fd68b38a172a83dbf9e0d0ef9
+  checksum: ee000bc26848147ad423b581bd250075662a354d84f0e06eb76d3b892328d8d4440b7487b5a83e851b12b255f55d71835b008a66cbf8f255a11e4400159237db
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^4.9.4#~builtin<compat/typescript>":
-  version: 4.9.4
-  resolution: "typescript@patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=7ad353"
+"typescript@patch:typescript@^4.9.5#~builtin<compat/typescript>":
+  version: 4.9.5
+  resolution: "typescript@patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=7ad353"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 37f6e2c3c5e2aa5934b85b0fddbf32eeac8b1bacf3a5b51d01946936d03f5377fe86255d4e5a4ae628fd0cd553386355ad362c57f13b4635064400f3e8e05b9d
+  checksum: 2eee5c37cad4390385db5db5a8e81470e42e8f1401b0358d7390095d6f681b410f2c4a0c496c6ff9ebd775423c7785cdace7bcdad76c7bee283df3d9718c0f20
   languageName: node
   linkType: hard
 
@@ -2519,8 +2519,8 @@ __metadata:
     "@types/node": ^17.0.45
     milligram: ^1.4.1
     prettier: ^2.8.3
-    solid-js: ^1.6.8
-    typescript: ^4.9.4
+    solid-js: ^1.6.10
+    typescript: ^4.9.5
     vite: ^2.9.15
     vite-plugin-solid: ^2.5.0
   languageName: unknown
