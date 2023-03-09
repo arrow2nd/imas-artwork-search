@@ -15,7 +15,7 @@
     "prettier": "^2.8.4",
     "typescript": "^4.9.5",
     "vite": "^2.9.15",
-    "vite-plugin-solid": "^2.5.0"
+    "vite-plugin-solid": "^2.6.1"
   },
   "dependencies": {
     "milligram": "^1.4.1",
