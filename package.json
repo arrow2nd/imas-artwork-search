@@ -20,6 +20,5 @@
   "dependencies": {
     "milligram": "^1.4.1",
     "solid-js": "^1.6.11"
-  },
-  "packageManager": "yarn@3.2.1"
+  }
 }
