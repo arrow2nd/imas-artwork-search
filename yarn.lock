@@ -2138,12 +2138,12 @@ __metadata:
   linkType: hard
 
 "solid-js@npm:^1.6.11":
-  version: 1.7.2
-  resolution: "solid-js@npm:1.7.2"
+  version: 1.7.3
+  resolution: "solid-js@npm:1.7.3"
   dependencies:
     csstype: ^3.1.0
     seroval: ^0.5.0
-  checksum: 15442a3afa88b3309a8ffc7e54faf3f444c61b5d58abe27287f2745b1d2a3c7fc5c10e7bedd472a7b677ada19a978e56d0968cdf138e5445713ddecffbef532b
+  checksum: 052a3148b6d0960312793781435005c16a7a80c2271e2bf2370ec22ec57ffd77e3e4a41335c1bd785ab36500adef86da79536445983efbed404db860e11593d4
   languageName: node
   linkType: hard
 
