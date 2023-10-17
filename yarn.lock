@@ -2277,8 +2277,8 @@ __metadata:
   linkType: hard
 
 "vite-plugin-solid@npm:^2.6.1":
-  version: 2.7.1
-  resolution: "vite-plugin-solid@npm:2.7.1"
+  version: 2.7.2
+  resolution: "vite-plugin-solid@npm:2.7.2"
   dependencies:
     "@babel/core": ^7.23.0
     "@babel/preset-typescript": ^7.23.0
@@ -2290,7 +2290,7 @@ __metadata:
   peerDependencies:
     solid-js: ^1.7.2
     vite: ^3.0.0 || ^4.0.0
-  checksum: dfe21ec3898b43106914c2abf9f9269f9068a9c0720e676e7fc97859c93fcbc652c14332d6b17353be49d0051fbb260ee3164514b4e736f0e23713ded1112563
+  checksum: fbb1b60539040e3cc23955ab1e246072038f57ad3afc576f78c6ddfa3649e8b48ad4136f543ef9350c3c5f3540a488e01da3d0e075e96a249fbaba7d6ac41b53
   languageName: node
   linkType: hard
 
