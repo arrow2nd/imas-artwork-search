@@ -1933,10 +1933,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"seroval@npm:^0.11.6":
-  version: 0.11.6
-  resolution: "seroval@npm:0.11.6"
-  checksum: b92fe6207dd6536da85dd91aeff5f608e890e744fd6e375221ee586b827ef6caca02937b89d028cd8f2e6855bcd61bfafc85fb4d4d378c9395613bcccf509d19
+"seroval@npm:^0.12.0":
+  version: 0.12.0
+  resolution: "seroval@npm:0.12.0"
+  checksum: be4742d15a330052488da906731767b136b80649cfaf250f2d6b56281f30a87a7620b514427f214cd339546d25ed00fd24aad78d66f753230957f252e7c97c3b
   languageName: node
   linkType: hard
 
@@ -1983,12 +1983,12 @@ __metadata:
   linkType: hard
 
 "solid-js@npm:^1.6.11":
-  version: 1.8.3
-  resolution: "solid-js@npm:1.8.3"
+  version: 1.8.4
+  resolution: "solid-js@npm:1.8.4"
   dependencies:
     csstype: ^3.1.0
-    seroval: ^0.11.6
-  checksum: ae208d99469aac8952837f90c178a256d9f2bc8a9d46f50b9ea997eed574596703c07ec5cc310660191c3da26159ce45dba374fc573f400c5edcbb71e1caa6a9
+    seroval: ^0.12.0
+  checksum: 29c0ef215f24222013c7171a19183e8515fce3ae423517c87a7a550d27b90d9e717d6b683d5bb6a5582d74ac8582113b2fd09b328adf3d86624190a21908f57d
   languageName: node
   linkType: hard
 
