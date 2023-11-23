@@ -9,14 +9,14 @@
   "license": "MIT",
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^4.0.0",
-    "@types/node": "^20.0.0",
-    "prettier": "^3.0.0",
-    "typescript": "^5.0.0",
+    "@types/node": "^20.9.4",
+    "prettier": "^3.1.0",
+    "typescript": "^5.3.2",
     "vite": "^4.0.0",
     "vite-plugin-solid": "^2.6.1"
   },
   "dependencies": {
     "milligram": "^1.4.1",
-    "solid-js": "^1.6.11"
+    "solid-js": "^1.8.6"
   }
 }
