@@ -24,7 +24,7 @@ devDependencies:
     version: 3.3.3
   typescript:
     specifier: ^5.3.2
-    version: 5.5.3
+    version: 5.5.4
   vite:
     specifier: ^5.0.0
     version: 5.3.4(@types/node@20.14.11)
@@ -1120,8 +1120,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /typescript@5.5.3:
-    resolution: {integrity: sha512-/hreyEujaB0w76zKo6717l3L0o/qEUtRgdvUBvlkhoWeOVMjMuHNHk0BRBzikzuGDqNmPQbg5ifMEqsHLiIUcQ==}
+  /typescript@5.5.4:
+    resolution: {integrity: sha512-Mtq29sKDAEYP7aljRgtPOpTvOfbwRWlS6dPRzwjdE+C0R4brX/GUyhHSecbHMFLNBLcJIPt9nl9yG5TZ1weH+Q==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
