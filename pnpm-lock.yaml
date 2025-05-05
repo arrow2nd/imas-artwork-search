@@ -29,10 +29,10 @@ importers:
         version: 5.8.3
       vite:
         specifier: ^6.0.0
-        version: 6.3.4(@types/node@22.15.3)
+        version: 6.3.5(@types/node@22.15.3)
       vite-plugin-solid:
         specifier: ^2.6.1
-        version: 2.11.6(solid-js@1.9.6)(vite@6.3.4(@types/node@22.15.3))
+        version: 2.11.6(solid-js@1.9.6)(vite@6.3.5(@types/node@22.15.3))
 
 packages:
 
@@ -641,8 +641,8 @@ packages:
       '@testing-library/jest-dom':
         optional: true
 
-  vite@6.3.4:
-    resolution: {integrity: sha512-BiReIiMS2fyFqbqNT/Qqt4CVITDU9M9vE+DKcVAsB+ZV0wvTKd+3hMbkpxz1b+NmEDMegpVbisKiAZOnvO92Sw==}
+  vite@6.3.5:
+    resolution: {integrity: sha512-cZn6NDFE7wdTpINgs++ZJ4N49W2vRp8LCKrn3Ob1kYNtOo21vfDoaV5GzBfLU4MovSAB8uNRm4jgzVQZ+mBzPQ==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
     peerDependencies:
@@ -1229,7 +1229,7 @@ snapshots:
 
   validate-html-nesting@1.2.2: {}
 
-  vite-plugin-solid@2.11.6(solid-js@1.9.6)(vite@6.3.4(@types/node@22.15.3)):
+  vite-plugin-solid@2.11.6(solid-js@1.9.6)(vite@6.3.5(@types/node@22.15.3)):
     dependencies:
       '@babel/core': 7.26.9
       '@types/babel__core': 7.20.5
@@ -1237,12 +1237,12 @@ snapshots:
       merge-anything: 5.1.7
       solid-js: 1.9.6
       solid-refresh: 0.6.3(solid-js@1.9.6)
-      vite: 6.3.4(@types/node@22.15.3)
-      vitefu: 1.0.6(vite@6.3.4(@types/node@22.15.3))
+      vite: 6.3.5(@types/node@22.15.3)
+      vitefu: 1.0.6(vite@6.3.5(@types/node@22.15.3))
     transitivePeerDependencies:
       - supports-color
 
-  vite@6.3.4(@types/node@22.15.3):
+  vite@6.3.5(@types/node@22.15.3):
     dependencies:
       esbuild: 0.25.3
       fdir: 6.4.4(picomatch@4.0.2)
@@ -1254,8 +1254,8 @@ snapshots:
       '@types/node': 22.15.3
       fsevents: 2.3.3
 
-  vitefu@1.0.6(vite@6.3.4(@types/node@22.15.3)):
+  vitefu@1.0.6(vite@6.3.5(@types/node@22.15.3)):
     optionalDependencies:
-      vite: 6.3.4(@types/node@22.15.3)
+      vite: 6.3.5(@types/node@22.15.3)
 
   yallist@3.1.1: {}
