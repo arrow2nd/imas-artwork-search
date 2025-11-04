@@ -20,7 +20,7 @@ importers:
         version: 5.2.2(prettier@3.6.2)
       '@types/node':
         specifier: ^24.0.14
-        version: 24.9.1
+        version: 24.10.0
       prettier:
         specifier: ^3.1.0
         version: 3.6.2
@@ -29,10 +29,10 @@ importers:
         version: 5.9.3
       vite:
         specifier: ^6.0.0
-        version: 6.4.1(@types/node@24.9.1)
+        version: 6.4.1(@types/node@24.10.0)
       vite-plugin-solid:
         specifier: ^2.11.7
-        version: 2.11.10(solid-js@1.9.10)(vite@6.4.1(@types/node@24.9.1))
+        version: 2.11.10(solid-js@1.9.10)(vite@6.4.1(@types/node@24.10.0))
 
 packages:
 
@@ -469,8 +469,8 @@ packages:
   '@types/estree@1.0.8':
     resolution: {integrity: sha512-dWHzHa2WqEXI/O1E9OjrocMTKJl2mSrEolh1Iomrv6U+JuNwaHXsXx9bLu5gG7BUWFIN0skIQJQ/L1rIex4X6w==}
 
-  '@types/node@24.9.1':
-    resolution: {integrity: sha512-QoiaXANRkSXK6p0Duvt56W208du4P9Uye9hWLWgGMDTEoKPhuenzNcC4vGUmrNkiOKTlIrBoyNQYNpSwfEZXSg==}
+  '@types/node@24.10.0':
+    resolution: {integrity: sha512-qzQZRBqkFsYyaSWXuEHc2WR9c0a0CXwiE5FWUvn7ZM+vdy1uZLfCunD38UzhuB7YN/J11ndbDBcTmOdxJo9Q7A==}
 
   babel-plugin-jsx-dom-expressions@0.40.3:
     resolution: {integrity: sha512-5HOwwt0BYiv/zxl7j8Pf2bGL6rDXfV6nUhLs8ygBX+EFJXzBPHM/euj9j/6deMZ6wa52Wb2PBaAV5U/jKwIY1w==}
@@ -1098,7 +1098,7 @@ snapshots:
 
   '@types/estree@1.0.8': {}
 
-  '@types/node@24.9.1':
+  '@types/node@24.10.0':
     dependencies:
       undici-types: 7.16.0
 
@@ -1304,7 +1304,7 @@ snapshots:
       escalade: 3.2.0
       picocolors: 1.1.1
 
-  vite-plugin-solid@2.11.10(solid-js@1.9.10)(vite@6.4.1(@types/node@24.9.1)):
+  vite-plugin-solid@2.11.10(solid-js@1.9.10)(vite@6.4.1(@types/node@24.10.0)):
     dependencies:
       '@babel/core': 7.28.5
       '@types/babel__core': 7.20.5
@@ -1312,12 +1312,12 @@ snapshots:
       merge-anything: 5.1.7
       solid-js: 1.9.10
       solid-refresh: 0.6.3(solid-js@1.9.10)
-      vite: 6.4.1(@types/node@24.9.1)
-      vitefu: 1.1.1(vite@6.4.1(@types/node@24.9.1))
+      vite: 6.4.1(@types/node@24.10.0)
+      vitefu: 1.1.1(vite@6.4.1(@types/node@24.10.0))
     transitivePeerDependencies:
       - supports-color
 
-  vite@6.4.1(@types/node@24.9.1):
+  vite@6.4.1(@types/node@24.10.0):
     dependencies:
       esbuild: 0.25.11
       fdir: 6.5.0(picomatch@4.0.3)
@@ -1326,11 +1326,11 @@ snapshots:
       rollup: 4.52.5
       tinyglobby: 0.2.15
     optionalDependencies:
-      '@types/node': 24.9.1
+      '@types/node': 24.10.0
       fsevents: 2.3.3
 
-  vitefu@1.1.1(vite@6.4.1(@types/node@24.9.1)):
+  vitefu@1.1.1(vite@6.4.1(@types/node@24.10.0)):
     optionalDependencies:
-      vite: 6.4.1(@types/node@24.9.1)
+      vite: 6.4.1(@types/node@24.10.0)
 
   yallist@3.1.1: {}
