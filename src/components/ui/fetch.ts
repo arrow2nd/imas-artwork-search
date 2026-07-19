@@ -11,7 +11,7 @@ export const fetchArtworks = async ({
   }
 
   // アルバム名で検索
-  const url = new URL('https://imas-artwork-api.deno.dev/v1/list')
+  const url = new URL('https://imas-artwork-api.arrow2nd.deno.net/v1/list')
 
   url.searchParams.append('keyword', keyword)
   url.searchParams.append('order', 'asc')
@@ -30,7 +30,7 @@ export const fetchArtworks = async ({
 const feachFromCdId = async (
   keyword: string
 ): Promise<ImasArtworkAPIResult[]> => {
-  const url = `https://imas-artwork-api.deno.dev/v1/cd/${keyword}`
+  const url = `https://imas-artwork-api.arrow2nd.deno.net/v1/cd/${keyword}`
   const data = await fetchFromApi(url)
   const json = await data.json()
 
